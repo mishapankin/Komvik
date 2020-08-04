@@ -1,0 +1,22 @@
+{
+    "title": "Комвик",
+    "about": "О нас",
+    "services": "Сервисы",
+    "contacts": "Контакты",
+    "lang": "RU",
+    "about_body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illo at temporibus dolorem vel neque quam non recusandae, impedit debitis, reprehenderit ullam minima voluptatem voluptas reiciendis cum maiores blanditiis corporis.",
+    "1_title": "Аудиторские услуги",
+    "1_body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illo at temporibus dolorem vel neque quam non recusandae, impedit debitis, reprehenderit ullam minima voluptatem voluptas reiciendis cum maiores blanditiis corporis.",
+    "2_title": "Финансовая консультация",
+    "2_body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illo at temporibus dolorem vel neque quam non recusandae, impedit debitis, reprehenderit ullam minima voluptatem voluptas reiciendis cum maiores blanditiis corporis.",
+    "3_title": "Бухгалтерские услуги",
+    "3_body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illo at temporibus dolorem vel neque quam non recusandae, impedit debitis, reprehenderit ullam minima voluptatem voluptas reiciendis cum maiores blanditiis corporis.",
+    "4_title": "Консультация по налоговому законодательству",
+    "4_body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illo at temporibus dolorem vel neque quam non recusandae, impedit debitis, reprehenderit ullam minima voluptatem voluptas reiciendis cum maiores blanditiis corporis.",
+    "5_title": "Консультация по налогам",
+    "5_body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illo at temporibus dolorem vel neque quam non recusandae, impedit debitis, reprehenderit ullam minima voluptatem voluptas reiciendis cum maiores blanditiis corporis.",
+    "6_title": "Консультация по кадровому законодательству",
+    "6_body": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit illo at temporibus dolorem vel neque quam non recusandae, impedit debitis, reprehenderit ullam minima voluptatem voluptas reiciendis cum maiores blanditiis corporis.",
+    "address": "ООО «КАФ»Комвик 99» Москва ул.Долгоруковская, д.34 строен.2 офис 414",
+    "contacts_body": "contacts"
+}
