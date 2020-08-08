@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <header class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm">
+    <div id="begining"></div>
+    <header class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
         <a class="navbar-brand d-sm-inline-block" href="#">
             <img id="logo" class="img-fluid" src="logo.svg" alt="КОМВИК99">
         </a>
@@ -26,16 +27,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#about_us">{{about}}</a>
+                    <a class="nav-link active" href="#begining">{{about}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">{{services}}</a>
+                    <a class="nav-link active" href="#services">{{services}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contacts">{{contacts}}</a>
+                    <a class="nav-link active" href="#contacts">{{contacts}}</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         {{lang}}
                     </a>
@@ -49,8 +50,10 @@
     </header>
 
     <main class="container-fluid">
-        <div id="about_us" class="container-xl d-flex flex-md-nowrap flex-wrap p-0 mt-5">
-            <img id="photo" class="rounded img-fluid" src="photo.jpg">
+        <div id="about_us" class="container-xl align-content-center d-flex flex-md-nowrap flex-wrap p-0 mt-5">
+            <div id="photo_holder">
+                <img id="photo" class="rounded" src="photo.jpg">
+            </div>
             <div id="about_text" class="p-4">
                 <h1>{{about}}</h1>
                 {{about_body}}
@@ -92,11 +95,11 @@
                         {{6_body}}
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
+                <a class="controls carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#servicesCarousel" role="button" data-slide="next">
+                <a class="controls carousel-control-next" href="#servicesCarousel" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>

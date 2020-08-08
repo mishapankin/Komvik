@@ -1,15 +1,42 @@
+body {
+    background-color: #E8EBF7;
+}
+
+header {
+    background-color: #bd4522;
+}
+
 #logo {
     height: 3rem;
 }
 
-#photo {
-    width: 50%;
+#photo_holder {
+    display: table;
+    height: 100%;
 }
 
-#about_body {
+#photo {
+    max-width: 100%;
     min-width: 50%;
+    height: auto;
+    object-fit: contain;
+}
+
+#about_us {
+    height: max-content;
+}
+
+#begining {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 0;
 }
 
 .service-item {
-    padding: 7rem;
+    padding: 5rem;
+}
+
+.controls {
+    width: 10%;
 }
