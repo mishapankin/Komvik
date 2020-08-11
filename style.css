@@ -12,9 +12,9 @@ header {
 
 #photo_holder {
     display: table;
-    /* min-width: 50%; */
+    flex-basis: 50%;
     align-content: center;
-    height: 100%;
+    /* height: 100%; */
 }
 
 #photo {
@@ -24,9 +24,9 @@ header {
     object-fit: contain;
 }
 
-/* #about_us {
-    height: max-content;
-} */
+#about_text {
+    width: 100%;
+}
 
 #begining {
     height: 0;
@@ -41,4 +41,21 @@ header {
 
 .controls {
     width: 10%;
+}
+
+#certificates {
+    width: 100%;
+    height: auto;
+}
+
+.certificate {
+    width: 30%;
+}
+
+.certificate:hover {
+    border: 2px solid purple;
+}
+
+.certificate_img {
+    width: 100%;
 }
