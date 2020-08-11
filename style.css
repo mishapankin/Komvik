@@ -12,6 +12,7 @@ header {
 
 #photo_holder {
     display: table;
+    /* min-width: 50%; */
     height: 100%;
 }
 
@@ -22,9 +23,9 @@ header {
     object-fit: contain;
 }
 
-#about_us {
+/* #about_us {
     height: max-content;
-}
+} */
 
 #begining {
     height: 0;

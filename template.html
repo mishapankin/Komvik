@@ -55,8 +55,7 @@
                 <img id="photo" class="rounded" src="photo.jpg">
             </div>
             <div id="about_text" class="p-4">
-                <h1>{{about}}</h1>
-                {{about_body}}
+                {{about.html}}
             </div>
         </div>
         <div id="services" class="container-xl mt-5 rounded shadow-sm bg-primary text-white">
@@ -71,28 +70,22 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item service-item active">
-                        <h2>{{1_title}}</h2>
-                        {{1_body}}
+                        {{1.html}}
                     </div>
                     <div class="carousel-item service-item">
-                        <h2>{{2_title}}</h2>
-                        {{2_body}}
+                        {{2.html}}
                     </div>
                     <div class="carousel-item service-item">
-                        <h2>{{3_title}}</h2>
-                        {{3_body}}
+                        {{3.html}}
                     </div>
                     <div class="carousel-item service-item">
-                        <h2>{{4_title}}</h2>
-                        {{4_body}}
+                        {{4.html}}
                     </div>
                     <div class="carousel-item service-item">
-                        <h2>{{5_title}}</h2>
-                        {{5_body}}
+                        {{5.html}}
                     </div>
                     <div class="carousel-item service-item">
-                        <h2>{{6_title}}</h2>
-                        {{6_body}}
+                        {{6.html}}
                     </div>
                 </div>
                 <a class="controls carousel-control-prev" href="#servicesCarousel" role="button" data-slide="prev">
@@ -112,7 +105,7 @@
                 <address>
                     {{address}}
                 </address>
-                {{contacts_body}}
+                {{contacts.html}}
             </span>
         </div>
     </main>
