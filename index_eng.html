@@ -15,17 +15,7 @@
 
 <body>
     <div id="begining"></div>
-
-    <svg id="abstract_img" viewBox="0 0 883 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>
-          <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-            <stop stop-color="#44464d" offset="0%"></stop>
-            <stop stop-color="#393d4d" offset="100%"></stop>
-          </linearGradient>
-        </defs>
-        <path d="M835.746-2.683c58.652 62.415 62.704 127.241 12.158 194.48C772.084 292.655 402.786 394.5 283.349 387.5 203.725 382.833 108.61 449-2 586V-14L835.746-2.683z" fill="url(#a)" fill-rule="evenodd"></path>
-    </svg>
-    <header class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
         <a class="navbar-brand d-sm-inline-block" href="#">
             <img id="logo" class="img-fluid" src="img/logo.svg" alt="КОМВИК99">
         </a>
@@ -59,33 +49,49 @@
         </div>
 
         <div class="form-inline text-white">
-            +7(499)973-23-12 &nbsp; &nbsp; &nbsp; +7(499)973-21-76 <br>
-+7(985)765-49-10 &nbsp; &nbsp; &nbsp; info@komvick.ru
+            <table id="phones_table">
+    <tbody>
+    <tr>
+        <td>
+            <a style="color: white;" href="tel:+7(499)9732312" title="Телефон ООО КАФ 'КОМВИК 99'">+7(499)973-23-12</a>
+        </td>
+        <td>
+            <a style="color: white;" href="tel:+7(499)9732176" title="Телефон ООО КАФ 'КОМВИК 99'">+7(499)973-21-76</a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a style="color: white;" href="tel:+7(985)7654910" title="Телефон ООО КАФ 'КОМВИК 99'">+7(985)765-49-10</a>
+        </td>
+        <td>
+            <a style="color: white;" href="mailto: info@komvick.ru" title="E-mail ООО КАФ 'КОМВИК 99'">info@komvick.ru</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
         </div>
     </header>
 
-    <main class="container-fluid">
-        <div id="about_us" class="container-xl align-content-center d-flex flex-md-nowrap flex-wrap p-0 mt-5">
-            <div id="photo_holder">
-                <img id="photo" class="rounded" src="img/photo.jpg">
-            </div>
-            <div id="about_text" class="p-4">
-                <h1>About us</h1>
-Consulting Audit company KOMVIK99, Limited Liability Company, was founded
-in 1998 by the team of professionals in the field of audit, consulting and
-bookkeeping service.
-Provision of extensive qualified support at fluid Russian legislation, based on
-experience and powers of our employees, is a mission of the company in
-cooperation with clients.
-Our team features are professional keen interest and commitment to provide to
-each client an individual well-judged approach to all his issues and questions,
-benevolence and client obsession.
-Company employees are ready to fast-track, its proved by the long-term
-cooperation throughout all of time of clients activity and their good references on our
-company to business partners. We highly value our clients concerns and wishes,
-and ready to demonstrate our high-level service to everyone interested in any kind
-of cooperation with us.
-            </div>
+    <main>
+        <div id="image">
+            <div><h1>About us</h1>
+<div class="indent">
+    Consulting Audit company KOMVIK99, Limited Liability Company, was founded
+    in 1998 by the team of professionals in the field of audit, consulting and
+    bookkeeping service.
+    Provision of extensive qualified support at fluid Russian legislation, based on
+    experience and powers of our employees, is a mission of the company in
+    cooperation with clients.
+    Our team features are professional keen interest and commitment to provide to
+    each client an individual well-judged approach to all his issues and questions,
+    benevolence and client obsession.
+    Company employees are ready to fast-track, its proved by the long-term
+    cooperation throughout all of time of clients activity and their good references on our
+    company to business partners. We highly value our clients concerns and wishes,
+    and ready to demonstrate our high-level service to everyone interested in any kind
+    of cooperation with us.
+</div></div>
+            <img src="img/about.jpg" alt="">
         </div>
         <div id="services" class="container-xl mt-5 rounded shadow-sm">
             <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
@@ -100,18 +106,20 @@ of cooperation with us.
                 <div class="carousel-inner">
                     <div class="carousel-item service-item active">
                         <h2>Financial Audit</h2>
-Financial audit of operations on conformity to legislation provisions and interest of owners
-are necessary to reveal the documents containing possible contempt of law. The basic
-principles of financial audit are legitimacy, objectivity and independence. The purpose of a
-financial audit is to ensure that the auditors are functioning correctly. A number of tasks are
-set to achieve this goal, each of which reflects some aspect of the company&#39;s activities. <br>
-
-In particular, the complex of works may include:
-<ul>
-    <li>Control over the targeted use of funds allocated to recipients</li>
-    <li>Obtaining information on the implementation of projects in the process of their implementation</li>
-    <li>Prevention of inappropriate use of funds of received funds by recipients</li>
-</ul>
+<div class="indent">
+    Financial audit of operations on conformity to legislation provisions and interest of owners
+    are necessary to reveal the documents containing possible contempt of law. The basic
+    principles of financial audit are legitimacy, objectivity and independence. The purpose of a
+    financial audit is to ensure that the auditors are functioning correctly. A number of tasks are
+    set to achieve this goal, each of which reflects some aspect of the company&#39;s activities. <br>
+    
+    In particular, the complex of works may include:
+    <ul>
+        <li>Control over the targeted use of funds allocated to recipients</li>
+        <li>Obtaining information on the implementation of projects in the process of their implementation</li>
+        <li>Prevention of inappropriate use of funds of received funds by recipients</li>
+    </ul>
+</div>
 
                     </div>
                     <div class="carousel-item service-item">

@@ -2,8 +2,48 @@ body {
     background-color: #27282c;
 }
 
+main {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
 header {
     background-color: #bd4522;
+}
+
+#phones_table>tbody>tr>td {
+    padding-left: 2rem;
+}
+
+#image {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#image>img {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+#image>div {
+    position: absolute;
+    color: black;
+    font-size: 1.2rem;
+    z-index: 1;
+    width: 25%;
+    height: 100%;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indent {
+    text-indent: 1rem;
 }
 
 #services {

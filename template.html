@@ -15,17 +15,7 @@
 
 <body>
     <div id="begining"></div>
-
-    <svg id="abstract_img" viewBox="0 0 883 584" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <defs>
-          <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="a">
-            <stop stop-color="#44464d" offset="0%"></stop>
-            <stop stop-color="#393d4d" offset="100%"></stop>
-          </linearGradient>
-        </defs>
-        <path d="M835.746-2.683c58.652 62.415 62.704 127.241 12.158 194.48C772.084 292.655 402.786 394.5 283.349 387.5 203.725 382.833 108.61 449-2 586V-14L835.746-2.683z" fill="url(#a)" fill-rule="evenodd"></path>
-    </svg>
-    <header class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+    <header class="navbar navbar-expand-lg navbar-dark fixed-top shadow-sm">
         <a class="navbar-brand d-sm-inline-block" href="#">
             <img id="logo" class="img-fluid" src="img/logo.svg" alt="КОМВИК99">
         </a>
@@ -63,14 +53,10 @@
         </div>
     </header>
 
-    <main class="container-fluid">
-        <div id="about_us" class="container-xl align-content-center d-flex flex-md-nowrap flex-wrap p-0 mt-5">
-            <div id="photo_holder">
-                <img id="photo" class="rounded" src="img/photo.jpg">
-            </div>
-            <div id="about_text" class="p-4">
-                {{about.html}}
-            </div>
+    <main>
+        <div id="image">
+            <div>{{about.html}}</div>
+            <img src="img/about.jpg" alt="">
         </div>
         <div id="services" class="container-xl mt-5 rounded shadow-sm">
             <div id="servicesCarousel" class="carousel slide" data-ride="carousel">
