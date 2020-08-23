@@ -17,8 +17,10 @@ header {
 }
 
 #image {
+    display: block;
+    overflow: auto;
     position: relative;
-    width: 100%;
+    width: 100vw;
     min-height: 1080px;
     margin: 0;
     padding: 0;
@@ -39,11 +41,10 @@ header {
     color: black;
     font-size: 1.2rem;
     z-index: 1;
-    min-width: 20rem;
     max-width: 100%;
-    width: 25%;
+    width: 490px;
+    padding: 10rem 3rem 10rem 3rem;
     /* height: 100%; */
-    top: 10rem;
     left: 50%;
     transform: translateX(-50%);
 }
