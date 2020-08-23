@@ -19,15 +19,19 @@ header {
 #image {
     position: relative;
     width: 100%;
+    min-height: 1080px;
     margin: 0;
     padding: 0;
 }
 
 #image>img {
     position: relative;
+    object-fit: cover;
     top: 0;
-    right: 0;
-    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    /* width: 100%; */
 }
 
 #image>div {
@@ -35,8 +39,10 @@ header {
     color: black;
     font-size: 1.2rem;
     z-index: 1;
+    min-width: 20rem;
+    max-width: 100%;
     width: 25%;
-    height: 100%;
+    /* height: 100%; */
     top: 10rem;
     left: 50%;
     transform: translateX(-50%);
