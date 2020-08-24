@@ -16,35 +16,32 @@ header {
     padding-left: 2rem;
 }
 
-#image {
-    display: block;
-    overflow: auto;
-    position: relative;
-    width: 100vw;
+#about_us {
+    width: 100%;
     min-height: 1080px;
     margin: 0;
     padding: 0;
 }
 
-#image>img {
+#about_us>img {
     position: relative;
     object-fit: cover;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     height: 100%;
-    /* width: 100%; */
+    width: 100%;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%);
 }
 
-#image>div {
+#about_us>div {
     position: absolute;
     color: black;
     font-size: 1.2rem;
     z-index: 1;
     max-width: 100%;
+    top: 123px;
     width: 490px;
-    padding: 10rem 3rem 10rem 3rem;
-    /* height: 100%; */
+    padding: 3rem;
     left: 50%;
     transform: translateX(-50%);
 }
