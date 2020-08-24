@@ -50,6 +50,10 @@ header {
     text-indent: 1rem;
 }
 
+ul {
+    text-indent: 0;
+}
+
 #services {
     background-color: #DADAD9;
 }
