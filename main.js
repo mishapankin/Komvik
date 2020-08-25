@@ -16,12 +16,10 @@ function resizePage(event) {
         item.style.height = height + "px";
     }
 
-    console.log(height);
-
     let x = 123.0 / 1080;
 
     about.style.height = text.offsetHeight / (1 - x) + "px";
-    text.style.top = x * text.offsetHeight + "px";
+    text.style.top = Math.max(x * text.offsetHeight, 123) + "px";
 }
 
 function moveCarousel(page) {
