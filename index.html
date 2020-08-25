@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
     <title>Комвик</title>
 </head>
 
@@ -31,11 +30,22 @@
                     <a class="nav-link active" href="#begining">О нас</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#services">Сервисы</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link active" href="#contacts">Контакты</a>
                 </li>
+                <li class="nav-item dropdown">
+    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
+        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Сервисы
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <a class="dropdown-item" href="#services" onclick="moveCarousel(0);">Финансовые проверки</a>
+        <a class="dropdown-item" href="#services" onclick="moveCarousel(1);">Консультация по налоговому законодательству</a>
+        <a class="dropdown-item" href="#services" onclick="moveCarousel(2);">Бухгалтерские услуги или аутсорсинг</a>
+        <a class="dropdown-item" href="#services" onclick="moveCarousel(3);">Кадровый консалтинг</a>
+        <a class="dropdown-item" href="#services" onclick="moveCarousel(4);">Аудиторские услуги</a>
+        <a class="dropdown-item" href="#services" onclick="moveCarousel(5);">Экспертиза проектов</a>
+    </div>
+</li>
                 <li class="nav-item dropdown">
                     <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -252,12 +262,24 @@
                 <address>
                     ООО «КАФ»Комвик 99» Москва ул.Долгоруковская, д.34 строен.2 офис 414
                 </address>
-                Phone: <br>
-+7(499)973-23-12 <br>
-+7(499)973-21-76 <br>
-+7(985)765-49-10 <br>
-E-mail: <br>
-info@komvick.ru
+                Tel:
+<ul>
+    <li>
+        <a href="tel:+7(499)9732312" title="Телефон ООО КАФ 'КОМВИК 99'">+7(499)973-23-12</a>
+    </li>
+    <li>
+        <a href="tel:+7(499)9732176" title="Телефон ООО КАФ 'КОМВИК 99'">+7(499)973-21-76</a>
+    </li>
+    <li>
+        <a href="tel:+7(985)7654910" title="Телефон ООО КАФ 'КОМВИК 99'">+7(985)765-49-10</a>
+    </li>
+</ul>
+E-Mail:
+<ul>
+    <li>
+        <a href="mailto: info@komvick.ru" title="E-mail ООО КАФ 'КОМВИК 99'">info@komvick.ru</a>
+    </li>
+</ul>
             </span>
         </div>
         <div id="certificates" class="container-xl align-content-center justify-content-around my-5 p-0 d-flex">
@@ -277,6 +299,7 @@ info@komvick.ru
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -4,11 +4,33 @@ function resizePage(event) {
     let about = document.getElementById("about_us");
     let text = document.getElementById("text");
 
+    let items = document.getElementsByClassName("service-item");
+    let height = 0;
+    for (let item of items) {
+        item.classList.add("active");
+        height = Math.max(height, item.offsetHeight);
+        item.classList.remove("active");
+    }
+    items[0].classList.add("active");
+    for (let item of items) {
+        item.style.height = height + "px";
+    }
+
+    console.log(height);
+
     let x = 123.0 / 1080;
 
     about.style.height = text.offsetHeight / (1 - x) + "px";
     text.style.top = x * text.offsetHeight + "px";
 }
 
+function moveCarousel(page) {
+    $("#servicesCarousel").carousel(page);
+}
+
 window.onload = resizePage;
 window.onresize = resizePage;
+
+$("#servicesCarousel").carousel({
+    interval: false
+})
