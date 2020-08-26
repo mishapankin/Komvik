@@ -1,5 +1,8 @@
 'use strict';
 
+let top_padding = 87.0;
+let bottom_padding = 64.0
+
 function resizePage(event) {
     resizeAbout();
     resizeCarousel();
@@ -9,10 +12,11 @@ function resizeAbout() {
     let about = document.getElementById("about_us");
     let text = document.getElementById("text");
 
-    let x = 123.0 / 1080;
+    let x = top_padding / 1080;
+    let y = bottom_padding / 1080;
 
-    about.style.height = text.offsetHeight / (1 - x) + "px";
-    text.style.top = Math.max(x * text.offsetHeight, 123) + "px";
+    about.style.height = text.offsetHeight / (1 - x - y) + "px";
+    text.style.top = Math.max(x * text.offsetHeight, top_padding) + "px";
 }
 
 function resizeCarousel() {
