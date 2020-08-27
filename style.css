@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body {
     background-color: #27282c;
@@ -12,6 +12,13 @@ main {
 
 header {
     background-color: #bd4522;
+}
+
+.anchor {
+    position: relative;
+    top: -100px;
+    width: 0;
+    height: 0;
 }
 
 #phones_table>tbody>tr>td {
@@ -38,8 +45,8 @@ header {
 #about_us>div {
     position: absolute;
     color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
     z-index: 1;
     max-width: 100%;
     top: 87px;
@@ -99,7 +106,7 @@ ul {
 }
 
 .service-item {
-    padding: 5rem;
+    padding: 4rem;
 }
 
 .controls {

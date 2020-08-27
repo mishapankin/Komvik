@@ -24,6 +24,7 @@ function resizeCarousel() {
     let height = 0;
     for (let item of items) {
         item.classList.add("active");
+        item.style.height = "";
         height = Math.max(height, item.offsetHeight);
         item.classList.remove("active");
     }
